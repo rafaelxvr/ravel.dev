@@ -5,6 +5,9 @@
 }
 
 .header__container {
+    width: var(--container-width-lg);
+    margin: 0 auto;
+    
     text-align: center;
     height: 100%;
     position: relative;

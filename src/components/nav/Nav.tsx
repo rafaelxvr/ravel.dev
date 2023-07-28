@@ -1,28 +1,31 @@
-import styles from './Nav.module.css'
-import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai'
+import './Nav.css'
+import { useState } from 'react'
+import { AiOutlineHome, AiOutlineUser, AiOutlineBulb} from 'react-icons/ai'
 import { BiBook, BiMessageSquareDetail } from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
-import { useState } from 'react'
 
 export function Nav() {
   const [activeNav, setActiveNav] = useState('#')
 
   return (
-    <nav className={styles.nav}>
-      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? styles.active : ''}>
+    <nav className='nav'>
+      <a href="#" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}>
         <AiOutlineHome/>
       </a>
-      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? styles.active : ''}>
+      <a href="#about" onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}>
         <AiOutlineUser/>
       </a>
-      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? styles.active : ''}>
+      <a href="#experience" onClick={() => setActiveNav('#experience')} className={activeNav === '#experience' ? 'active' : ''}>
         <BiBook/>
       </a>
-      <a href="#solutions" onClick={() => setActiveNav('#solutions')} className={activeNav === '#solutions' ? styles.active : ''}>
+      <a href="#solutions" onClick={() => setActiveNav('#solutions')} className={activeNav === '#solutions' ? 'active' : ''}>
         <RiServiceLine/>
       </a>
-      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? styles.active : ''}>
+      <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail/>
+      </a>
+      <a href="#blog" onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}>
+        <AiOutlineBulb/>
       </a>
     </nav>
   )
