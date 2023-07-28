@@ -67,14 +67,14 @@
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ======== */
-@media screeen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
     .container {
         background: 68vh;
     }
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) ======== */
-@media screeen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
     header {
         height: 100vh;
     }

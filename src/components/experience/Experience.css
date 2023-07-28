@@ -44,7 +44,7 @@
 }
 
 /* ======== MEDIA QUERIES (MEDIUM DEVICES) ======== */
-@media screeen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .experience_container {
     grid-template-columns: 1fr;
   }
@@ -61,7 +61,7 @@
 }
 
 /* ======== MEDIA QUERIES (SMALL DEVICES) ======== */
-@media screeen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .experience_container {
     gap: 1rem;
   }
