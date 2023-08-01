@@ -34,7 +34,7 @@ export const Contact = () => {
             <RiInstagramLine className='contact_option_icon' />
             <h4>Instagram</h4>
             <h5>@rafaelxv_</h5>
-            <a href='ig.me/m/rafaelxv_' target='_blank'>Send a Message</a>
+            <a href='https://ig.me/m/rafaelxv_' target='_blank'>Send a Message</a>
           </article>
 
           <article className="contact_option">
