@@ -1,5 +1,6 @@
 import './Portfolio.css'
 import IMG1 from '../../assets/authentication.jpg'
+import IMG2 from '../../assets/calculator.jpg'
 
 const data = [
   {
@@ -8,6 +9,13 @@ const data = [
     title: 'Authentication API',
     github: 'https://github.com/rafaelxvr/authentication-api',
     demo: 'https://auth-clean-api-fdbc0cccb71c.herokuapp.com'
+  },
+  {
+    id: 2,
+    image: IMG2,
+    title: 'Phone Calls Tax Calculator',
+    github: 'https://github.com/rafaelxvr/show-me-the-code-test',
+    demo: '#'
   }
 ]
 
