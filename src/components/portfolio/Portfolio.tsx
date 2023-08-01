@@ -1,5 +1,5 @@
 import './Portfolio.css'
-import IMG1 from '../../assets/authentication.jpg'
+import IMG1 from '../../assets/authentication.png'
 import IMG2 from '../../assets/calculator.jpg'
 import IMG3 from '../../assets/portfolio.png'
 
