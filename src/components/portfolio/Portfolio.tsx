@@ -1,6 +1,7 @@
 import './Portfolio.css'
 import IMG1 from '../../assets/authentication.jpg'
 import IMG2 from '../../assets/calculator.jpg'
+import IMG3 from '../../assets/portfolio.png'
 
 const data = [
   {
@@ -16,6 +17,13 @@ const data = [
     title: 'Phone Calls Tax Calculator',
     github: 'https://github.com/rafaelxvr/show-me-the-code-test',
     demo: '#'
+  },
+  {
+    id: 3,
+    image: IMG3,
+    title: 'React Portfolio',
+    github: 'https://github.com/rafaelxvr/ravel.dev',
+    demo: 'https://rafaelxavier.tech'
   }
 ]
 
