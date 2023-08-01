@@ -24,9 +24,7 @@ export function Nav() {
       <a href="#contact" onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}>
         <BiMessageSquareDetail/>
       </a>
-      <a href="#blog" onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}>
-        <AiOutlineBulb/>
-      </a>
+      {/*<a href="#blog" onClick={() => setActiveNav('#blog')} className={activeNav === '#blog' ? 'active' : ''}><AiOutlineBulb/></a>*/}
     </nav>
   )
 }

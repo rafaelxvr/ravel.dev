@@ -19,9 +19,7 @@ export function App() {
       <Experience />
       <Solutions />
       <Portfolio />
-      <Testimonials />
       <Contact />
-      <Blog />
       <Footer />
     </>
   )

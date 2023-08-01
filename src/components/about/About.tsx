@@ -27,20 +27,20 @@ export function About() {
             <article className='about_card'>
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>20+ Clients Worldwide</small>
+              <small>10+ Clients</small>
             </article>
 
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>10+ Completed Projects</small>
+              <small>5+ Completed Projects</small>
             </article>
           </div>
 
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error aut ipsum 
-            magni ducimus, incidunt eum quas, doloremque quae, adipisci aliquid dicta 
-            magnam voluptates non dolor eaque iusto laudantium asperiores dolorum?
+          Results-driven software engineer with a strong background in fullstack development and a passion for delivering high-quality solutions. 
+          With a focus on user-centric design and robust code architecture, I have successfully developed and maintained diverse applications across various industries. 
+          Proficient in a wide range of technologies, I bring a versatile skill set that enables me to tackle complex challenges and drive innovation.
           </p>
 
           <a href='#contact' className='btn btn-primary'>Let's Talk</a>
